@@ -32,7 +32,7 @@ https://www.dropbox.com/developers/apps
 ### Notes
 * This app was designed to be deployed to Heroku with the `CloudAMQP` add-on for RabbitMQ queue support.
 * Heroku has a 30 second request timeout and as a result, the process of downloading a book needed to be offloaded to a worker.
-* Dropbox support was added in order to simply the process of retrieving the book after the worker processes the download job.
+* Dropbox support was added in order to simplify the process of retrieving the book after the worker processes the download job.
 
 
 ### Demo
