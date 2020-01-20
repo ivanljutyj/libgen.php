@@ -14,6 +14,11 @@ $ composer install
 * DROPBOX_APP_KEY - REQUIRED
 * DROPBOX_APP_SECRET - REQUIRED
 
+### API 
+* Get Books : `GET /books/:name`
+* Download Book : `GET /books/download/:md5`
+* App Info : `GET /`
+
 ### Install Heroku
 ```
 https://devcenter.heroku.com/articles/heroku-cli#download-and-install
